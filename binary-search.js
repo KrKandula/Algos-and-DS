@@ -29,5 +29,5 @@ function binarySearch(array, elem){
   return -1;
 }
 
-var position = binarySearch([5, 10, 15, 20, 25, 30], 10);
+var position = binarySearch([5, 10, 15, 20, 25, 30], 30);
 console.log(position);
