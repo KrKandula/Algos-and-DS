@@ -5,6 +5,12 @@
 //     8    15
 //output: 
 //implmentation logic for finding min: left most tree has the min element
+//Time complexity 
+//worst case O(n) for left skewed bst/ right skewed trees
+//best case O(1) to find min value in a right skewed tree, similarly, O(1) to find max value in a left skewed tree
+//For a balanced BST it is O(logn) 
+
+
 
 const bst = require('./bst')
 
