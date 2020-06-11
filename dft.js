@@ -13,7 +13,7 @@ const bst = require('./bst');
 
 //build the binary search tree
 const root = bst(null, 25);
-bst(root, 5);bst(root, 30);bst(root, 2);bst(root, 28);bst(root, 10);bst(root, 15);bst(root, 8);bst(root, 35);
+bst(root, 5);bst(root, 30);bst(root, 2);bst(root, 10);bst(root, 28);bst(root, 35);bst(root, 8);bst(root, 15);
 
 //inorder traversal
 function inorder(root){ //Left, data, right
