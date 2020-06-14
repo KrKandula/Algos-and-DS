@@ -25,3 +25,5 @@ function bfs () {
             queue.push(node.right);
     }
 }
+
+module.exports = bfs;

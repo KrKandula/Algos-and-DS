@@ -41,11 +41,14 @@ function postorder(root){ //left, right, data
     console.log(root.data);
 }
 
-console.log("Inorder Traversal ...\n")
-inorder(root);
+// console.log("Inorder Traversal ...\n")
+// inorder(root);
 
-console.log("Post-order Traversal ...\n");
-postorder(root);
+// console.log("Post-order Traversal ...\n");
+// postorder(root);
 
-console.log("Pre-order Traversal ...\n");
-preorder(root);
+// console.log("Pre-order Traversal ...\n");
+// preorder(root);
+
+
+module.exports = {preorder: preorder, inorder: inorder, postorder: postorder}

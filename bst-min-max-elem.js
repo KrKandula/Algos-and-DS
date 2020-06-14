@@ -17,11 +17,11 @@ const bst = require('./bst')
 const root = bst(null, 25);
 bst(root, 5);bst(root, 30);bst(root, 2);bst(root, 10);bst(root, 28);bst(root, 35);bst(root, 8);bst(root, 15);
 
-min = findmin(root);
-console.log('Min elem using iterative method is: ' + min);
+// min = findmin(root);
+// console.log('Min elem using iterative method is: ' + min);
 
-min_recursion = findmin_recursion(root);
-console.log('Min elem using recursion method is: ' + min_recursion);
+// min_recursion = findmin_recursion(root);
+// console.log('Min elem using recursion method is: ' + min_recursion);
 
 // max = findmax(root);
 // console.log('Max elem using iterative method is: ' + max);
@@ -74,4 +74,6 @@ function findmax_recursion(root) {
     }
     return findmax_recursion(root.right);
 }
+
+module.exports = {findMin: findmin_recursion, findMax: findmax_recursion};
 
