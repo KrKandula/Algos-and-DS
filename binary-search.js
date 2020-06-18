@@ -17,7 +17,7 @@ function binarySearch(array, elem){
       end=array.length-1,
       mid;
   while(start<=end) {
-    mid=Math.ceil((start+end)/2);
+    mid=Math.floor((start+end)/2);
     if(elem==array[mid]) {
       return mid;
     } else if (elem < array[mid]) {
@@ -29,5 +29,5 @@ function binarySearch(array, elem){
   return -1;
 }
 
-var position = binarySearch([5, 10, 15, 20, 25, 30], 30);
+var position = binarySearch([5, 10, 15, 20, 25, 30], 25); //4
 console.log(position);
