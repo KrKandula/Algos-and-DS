@@ -44,7 +44,7 @@ function mergeSort(arr) {
     mergeSort(ra)
     merge(arr, la, ra)
     return arr
-}
+}   
 
 console.log('after merge sort...')
 console.log(mergeSort(arr));
